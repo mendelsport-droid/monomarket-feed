@@ -1,0 +1,37 @@
+name: build-feed
+
+on:
+  push:
+    paths: ["data/hotline.xml", "data/products.json", "convert.py", "monomarket-feed*.zip", ".github/workflows/build.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-feed
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Unpack archive if present
+        run: |
+          for f in monomarket-feed*.zip; do
+            [ -f "$f" ] && unzip -o "$f" -x '.github/*' && rm "$f"
+          done
+          true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build feeds from data/hotline.xml
+        run: python3 convert.py data/hotline.xml
+      - name: Commit
+        run: |
+          git config user.name "feed-bot"
+          git config user.email "feed-bot@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "feed $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git push
