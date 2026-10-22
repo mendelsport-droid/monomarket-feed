@@ -24,6 +24,7 @@ CFG = {
     "stock_if_available": 1,          # Horoshop не отдаёт количество
     "days_to_dispatch": 1,
     "warranty_type": "manufacturer",
+    "pay_in_parts": 7,                # везде 7 ПЧ (минимум monoмаркет)
     "category_map": {                 # раздел Horoshop -> категория monoмаркет
         "Лыжные ботинки": "Гірськолижні черевики",
         "Крепления для сноуборда": "Кріплення для сноуборда",
@@ -107,6 +108,18 @@ def main():
             skipped.append(code)
         if not available or not price:
             continue
+        # vendor_code должен быть уникальным на каждый SKU: код производителя + размер
+        vc_unique = st["vendor_code"] or code
+        if st["vendor_code"]:
+            col = re.sub(r"[^A-Za-z0-9]+", "", st["color"]).upper()[:6]   # только латиница (кириллицу не пишем)
+            suffix = "-".join(x for x in (col, st["size"]) if x)
+            vc_unique += f"-{suffix}" if suffix else f"-{code}"
+        # нет фото у модификации — берём у соседней (та же модель и цвет)
+        if not st["photos"]:
+            for s2 in static.values():
+                if s2["photos"] and s2["name"] == st["name"] and s2["color"] == st["color"] and s2["vendor_code"] == st["vendor_code"]:
+                    st["photos"] = s2["photos"]
+                    break
         cat = cfg["category_map"].get(st["section"], st["section"] or "Інше")
         kg, h, w, l = cfg["dimensions"].get(st["section"], (1.0, 10, 30, 40))
         params = [("Бренд", st["brand"]), ("Модель", model_name(st["name"], st["brand"]))]
@@ -114,7 +127,7 @@ def main():
         o = ["  <offer>",
              f"   <id>{escape(code)}</id>",
              f"   <code>{escape(code)}</code>",
-             f"   <vendor_code>{escape(st['vendor_code'] or code)}</vendor_code>",
+             f"   <vendor_code>{escape(vc_unique)}</vendor_code>",
              f"   <title><![CDATA[{title(st, cfg)}]]></title>"]
         if st["barcode"]:
             o.append(f"   <barcode>{st['barcode']}</barcode>")
@@ -131,7 +144,7 @@ def main():
                        "stock": cfg["stock_if_available"],
                        "warehouses": [{"id": cfg["warehouse_id"], "stock": cfg["stock_if_available"]}],
                        "warranty_type": cfg["warranty_type"], "warranty_period": st["warranty"],
-                       "max_pay_in_parts": st["parts"], "days_to_dispatch": cfg["days_to_dispatch"], "manufacture": None})
+                       "max_pay_in_parts": cfg["pay_in_parts"], "days_to_dispatch": cfg["days_to_dispatch"], "manufacture": None})
 
     OUT.mkdir(exist_ok=True)
     (OUT / "products.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<Market>\n <offers>\n' + "\n".join(offers)
