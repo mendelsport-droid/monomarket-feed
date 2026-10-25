@@ -1,11 +1,11 @@
 {
- "updatedAt": "2026-10-24T02:11:12Z",
+ "updatedAt": "2026-10-25T03:11:12Z",
  "total": 109,
  "data": [
   {
    "code": "194151651485",
-   "price": 20249,
-   "old_price": 26999,
+   "price": 29399,
+   "old_price": null,
    "availability": true,
    "stock": 1,
    "warehouses": [
@@ -238,8 +238,8 @@
   },
   {
    "code": "194151658910",
-   "price": 16499,
-   "old_price": 21999,
+   "price": 23999,
+   "old_price": null,
    "availability": true,
    "stock": 1,
    "warehouses": [
