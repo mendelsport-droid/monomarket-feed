@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-10-27T15:51:16Z",
- "total": 121,
+ "updatedAt": "2026-10-27T15:57:10Z",
+ "total": 297,
  "data": [
   {
    "code": "194151651478",
@@ -1967,6 +1967,3174 @@
   {
    "code": "194151684063",
    "price": 32999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 100",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 11I",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 11I",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 11I",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 302",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 302",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 302",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 6A1",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 6A1",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 6A1",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 80I",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 80I",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 BAJ",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 BAJ",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 BAJ",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 BAK",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 BAK",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 BAK",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 CBC",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 CBC",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 CBC",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 CBC",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 PGA",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 PGA",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 PGA",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 PGA",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 100",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 24J",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 24J",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "8056153628006",
+   "price": 3429,
+   "old_price": 4899,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 100",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 24J",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 02E",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 02E",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 100",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 02E",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505 02E",
+   "price": 4999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS900586 02E",
+   "price": 7800,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS900586 20I",
+   "price": 7800,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS900586 20I",
+   "price": 7800,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS900586 20I",
+   "price": 7800,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS900586 302",
+   "price": 7800,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS900586 302",
+   "price": 7800,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS900586 302",
+   "price": 7800,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS900586 6HI",
+   "price": 7800,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS900586 6HI",
+   "price": 7800,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS900586 6HI",
+   "price": 7800,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS900586 NVG",
+   "price": 8840,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS900586 NVG",
+   "price": 8840,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS900586 NVG",
+   "price": 8840,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS900586 02E",
+   "price": 7800,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS900586 02E",
+   "price": 7800,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS900641 0R6",
+   "price": 13520,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS900641 0R6",
+   "price": 13520,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS900641 4C8",
+   "price": 13520,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS900641 RGG",
+   "price": 13520,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS900641 RGG",
+   "price": 13520,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS900641 02E",
+   "price": 13520,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS900641 02E",
+   "price": 13520,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS900642 13E",
+   "price": 26999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS900642 13E",
+   "price": 26999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS900642 13E",
+   "price": 26999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS900642 9G0",
+   "price": 26999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS900642 9G0",
+   "price": 26999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS900642 9G0",
+   "price": 26999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS901055 02E",
+   "price": 8999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS901055 02E",
+   "price": 8999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS901055 BCS",
+   "price": 8999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS901055 BCS",
+   "price": 8999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS901055 MMA",
+   "price": 8999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS901055 MMA",
+   "price": 8999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS901055 09J",
+   "price": 8999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS901055 09J",
+   "price": 8999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS901471 02E",
+   "price": 13520,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS901471 02E",
+   "price": 13520,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS902130 02K",
+   "price": 7999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS902130 02K",
+   "price": 7999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS902130 02K",
+   "price": 7999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505MP 86V",
+   "price": 6760,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505MP 86V",
+   "price": 6760,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505MP 86V",
+   "price": 6760,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505MP RGC",
+   "price": 6760,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505MP RGC",
+   "price": 6760,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "99505MP RGC",
+   "price": 6760,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS901360 09K",
+   "price": 7999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS901360 09K",
+   "price": 7999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS901360 09K",
+   "price": 7999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS901360 09K",
+   "price": 7999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS901362 09K",
+   "price": 8999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS901362 09K",
+   "price": 8999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS901362 09K",
+   "price": 8999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS901354 1AA",
+   "price": 10920,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS901354 1AA",
+   "price": 10920,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS901356 1AA",
+   "price": 14999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS901356 1AA",
+   "price": 14999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS901357 0A0",
+   "price": 25999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "FOS901357 0A0",
+   "price": 25999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7064 70648400",
+   "price": 8999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7064 7064A700",
+   "price": 8999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7064 7064C800",
+   "price": 10999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7064 7064E000",
+   "price": 10999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7064 7064F800",
+   "price": 10999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7064 7064H300",
+   "price": 10999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7050 70507500",
+   "price": 8999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7050 70502000",
+   "price": 10999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7050 70509700",
+   "price": 8999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7050 7050F000",
+   "price": 10999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7070 70708801",
+   "price": 5999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7070 7070G601",
+   "price": 8580,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7070 70705701",
+   "price": 5999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7093 70939100",
+   "price": 8580,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7093 70932600",
+   "price": 5999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7093 70934600",
+   "price": 5999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7099 70991800",
+   "price": 8999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7099 70997100",
+   "price": 10999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7099 70994000",
+   "price": 8999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7104 71040400",
+   "price": 6999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7104 71043600",
+   "price": 6999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7104 71048200",
+   "price": 8999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7104 71046800",
+   "price": 8999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7125 71250200",
+   "price": 2999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7125 71250400",
+   "price": 2999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7125 71250100",
+   "price": 2999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7125 71250300",
+   "price": 2999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7126 71260100",
+   "price": 2999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7126 71260300",
+   "price": 2999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7138 71380200",
+   "price": 17999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7138 71380300",
+   "price": 17999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7138 71380400",
+   "price": 17999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7138 71380500",
+   "price": 17999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7138 71380600",
+   "price": 17999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7138 71380700",
+   "price": 17999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7138 71381400",
+   "price": 17999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7138 71381500",
+   "price": 15999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7138 71381600",
+   "price": 15999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7138 71381700",
+   "price": 17999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7138 71381800",
+   "price": 17999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7138 71381900",
+   "price": 18999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7139 71390300",
+   "price": 17999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7139 71390200",
+   "price": 17999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7139 71390400",
+   "price": 17999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7139 71391100",
+   "price": 17999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7139 71391200",
+   "price": 15999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7139 71391500",
+   "price": 18999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7103 71031700",
+   "price": 8999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7103 71033800",
+   "price": 8999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7103 71035400",
+   "price": 10999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7103 71036900",
+   "price": 10999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7103 71037800",
+   "price": 10999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7110 71103400",
+   "price": 9776,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7110 71107000",
+   "price": 11856,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7105 71050300",
+   "price": 6999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7105 71053600",
+   "price": 6999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7105 71056000",
+   "price": 8999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7105 71057800",
+   "price": 8999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7145 71450100",
+   "price": 19500,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7145 71450600",
+   "price": 19500,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7145 71450900",
+   "price": 19500,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7147 71470400",
+   "price": 19500,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7147 71470800",
+   "price": 19500,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7147 71472100",
+   "price": 16999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7147 71472500",
+   "price": 20540,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7136 71360200",
+   "price": 15600,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7136 71360300",
+   "price": 15600,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7137 71370300",
+   "price": 15600,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7137 71370400",
+   "price": 15600,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7137 71370500",
+   "price": 15600,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7137 71370700",
+   "price": 15600,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7149 71491500",
+   "price": 9999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7149 71490800",
+   "price": 9999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7149 71491400",
+   "price": 11999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7150 71500700",
+   "price": 11999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7124 71240100",
+   "price": 2999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7124 71240200",
+   "price": 2999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7124 71240300",
+   "price": 2999,
+   "old_price": null,
+   "availability": true,
+   "stock": 1,
+   "warehouses": [
+    {
+     "id": "DNIPRO-MAIN",
+     "stock": 1
+    }
+   ],
+   "warranty_type": "manufacturer",
+   "warranty_period": 12,
+   "max_pay_in_parts": 7,
+   "days_to_dispatch": 3,
+   "manufacture": null
+  },
+  {
+   "code": "0OO7124 71240400",
+   "price": 2999,
    "old_price": null,
    "availability": true,
    "stock": 1,
