@@ -22,20 +22,26 @@ OUT = ROOT / "docs"
 CFG = {
     "warehouse_id": "DNIPRO-MAIN",
     "stock_if_available": 1,          # Horoshop не отдаёт количество
-    "days_to_dispatch": 1,
+    "days_to_dispatch": 3,
     "warranty_type": "manufacturer",
     "pay_in_parts": 7,                # везде 7 ПЧ (минимум monoмаркет)
     "category_map": {                 # раздел Horoshop -> категория monoмаркет
         "Лыжные ботинки": "Гірськолижні черевики",
         "Крепления для сноуборда": "Кріплення для сноуборда",
+        "Шлемы защитные": "Гірськолижні шоломи",
+        "Очки-маски": "Гірськолижні маски",
     },
     "type_prefix": {                  # как начинать название
         "Лыжные ботинки": "Черевики гірськолижні",
         "Крепления для сноуборда": "Кріплення для сноуборда",
+        "Шлемы защитные": "Шолом гірськолижний",
+        "Очки-маски": "Маска гірськолижна",
     },
     "dimensions": {                   # ВГХ упаковки по разделу: кг, см (В×Ш×Д)
         "Лыжные ботинки": (2.5, 18, 32, 42),
         "Крепления для сноуборда": (1.6, 14, 30, 38),
+        "Шлемы защитные": (0.6, 25, 25, 30),
+        "Очки-маски": (0.3, 12, 12, 22),
     },
 }
 EAN = re.compile(r"^\d{8}$|^\d{12,14}$")
@@ -61,7 +67,7 @@ def txt(el, tag):
 
 def model_name(name, brand):
     t = re.sub(r"\(.*?\)", "", name)
-    t = re.sub(r"^(Черевики гірськолижні|Кріплення для сноуборда|Кріплення|Черевики)\s+", "", t).strip()
+    t = re.sub(r"^(Черевики гірськолижні|Кріплення для сноуборда|Кріплення|Черевики|Гірськолижний шолом|Гірськолижна маска|Шолом|Маска)\s+", "", t).strip()
     t = re.sub(r"^" + re.escape(brand) + r"\s+", "", t, flags=re.I).strip()
     t = re.sub(r"\s+20\d\d$", "", t)
     return re.sub(r"\s+", " ", t)
@@ -90,7 +96,7 @@ def main():
     raw = Path(sys.argv[1]).read_bytes() if len(sys.argv) > 1 else fetch(FEED_URL)
     root = ET.fromstring(raw)
     items = root.find("items")
-    offers, prices, skipped = [], [], []
+    offers, prices, skipped, nophoto = [], [], [], []
     for it in items:
         code = txt(it, "code")
         st = static.get(code)
@@ -120,6 +126,9 @@ def main():
                 if s2["photos"] and s2["name"] == st["name"] and s2["color"] == st["color"] and s2["vendor_code"] == st["vendor_code"]:
                     st["photos"] = s2["photos"]
                     break
+        if not st["photos"]:
+            nophoto.append(code)          # monoмаркет без фото не примет — не отдаём
+            continue
         cat = cfg["category_map"].get(st["section"], st["section"] or "Інше")
         kg, h, w, l = cfg["dimensions"].get(st["section"], (1.0, 10, 30, 40))
         params = [("Бренд", st["brand"]), ("Модель", model_name(st["name"], st["brand"]))]
@@ -154,7 +163,7 @@ def main():
     (OUT / "index.html").write_text(f"<meta charset=utf-8><p>Proextreem → monoмаркет: {len(offers)} товарів, оновлено "
                                     f"{datetime.now(timezone.utc):%Y-%m-%d %H:%M} UTC</p><a href=products.xml>products.xml</a> · <a href=prices.json>prices.json</a>",
                                     encoding="utf-8")
-    print(f"offers: {len(offers)}, prices: {len(prices)}, без обогащения: {len(skipped)}")
+    print(f"offers: {len(offers)}, prices: {len(prices)}, без обогащения: {len(skipped)}, без фото (пропущены): {nophoto}")
 
 
 if __name__ == "__main__":
