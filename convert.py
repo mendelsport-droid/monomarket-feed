@@ -24,6 +24,8 @@ CFG = {
     "stock_if_available": 1,          # Horoshop не отдаёт количество
     "days_to_dispatch": 3,
     "warranty_type": "manufacturer",
+    "min_year": 2025,                 # товары старше (по полю «Год») в monoмаркет не отдаём
+    "exclude_codes": ["700285659428"],   # ручные исключения (артикул или код из Hotline-фида)
     "pay_in_parts": 7,                # везде 7 ПЧ (минимум monoмаркет)
     "category_map": {                 # раздел Horoshop -> категория monoмаркет
         "Лыжные ботинки": "Гірськолижні черевики",
@@ -93,13 +95,18 @@ def clean_desc(d):
 def main():
     cfg = CFG
     static = json.loads(DATA.read_text(encoding="utf-8"))
+    # Horoshop в Hotline-фиде отдаёт <code> = код производителя (MPN), если он заполнен, иначе артикул
+    by_mpn = {}
+    for k, v in static.items():
+        if v.get("vendor_code"):
+            by_mpn.setdefault(v["vendor_code"].strip(), k)
     raw = Path(sys.argv[1]).read_bytes() if len(sys.argv) > 1 else fetch(FEED_URL)
     root = ET.fromstring(raw)
     items = root.find("items")
     offers, prices, skipped, nophoto = [], [], [], []
     for it in items:
         code = txt(it, "code")
-        st = static.get(code)
+        st = static.get(code) or static.get(by_mpn.get(code.strip(), ""))
         available = txt(it, "stock").lower().startswith("в нали")
         price = int(float(txt(it, "priceRUAH") or 0))
         old = int(float(txt(it, "oldprice") or 0))
@@ -113,6 +120,11 @@ def main():
                   "warranty": int(txt(it, "guarantee") or 12), "parts": 6}
             skipped.append(code)
         if not available or not price:
+            continue
+        if code in cfg["exclude_codes"] or st["barcode"] in cfg["exclude_codes"]:
+            continue
+        y = re.search(r"\d{4}", st["year"] or "")
+        if y and int(y.group()) < cfg["min_year"]:
             continue
         # vendor_code должен быть уникальным на каждый SKU: код производителя + размер
         vc_unique = st["vendor_code"] or code
