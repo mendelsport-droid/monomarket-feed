@@ -96,17 +96,27 @@ def main():
     cfg = CFG
     static = json.loads(DATA.read_text(encoding="utf-8"))
     # Horoshop в Hotline-фиде отдаёт <code> = код производителя (MPN), если он заполнен, иначе артикул
-    by_mpn = {}
+    by_mpn, by_photo = {}, {}
     for k, v in static.items():
         if v.get("vendor_code"):
             by_mpn.setdefault(v["vendor_code"].strip(), k)
+        for ph in v.get("photos", []):
+            by_photo.setdefault(ph, v)
     raw = Path(sys.argv[1]).read_bytes() if len(sys.argv) > 1 else fetch(FEED_URL)
     root = ET.fromstring(raw)
     items = root.find("items")
     offers, prices, skipped, nophoto = [], [], [], []
+    # Horoshop отдаёт <code> = MPN, а MPN бывает общим для нескольких размеров -> берём штрихкод
+    from collections import Counter
+    code_count = Counter(txt(it, "code") for it in items)
     for it in items:
         code = txt(it, "code")
         st = static.get(code) or static.get(by_mpn.get(code.strip(), ""))
+        if code_count[code] > 1:
+            # несколько модификаций с одним MPN (размеры): различаем по фото модификации из фида
+            st = by_photo.get(txt(it, "image")) or (st if st and st.get("vendor_code", "").strip() != code.strip() else None)
+        if st and code_count[code] > 1 and st.get("barcode"):
+            code = st["barcode"]
         available = txt(it, "stock").lower().startswith("в нали")
         price = int(float(txt(it, "priceRUAH") or 0))
         old = int(float(txt(it, "oldprice") or 0))
