@@ -32,18 +32,21 @@ CFG = {
         "Крепления для сноуборда": "Кріплення для сноуборда",
         "Шлемы защитные": "Гірськолижні шоломи",
         "Очки-маски": "Гірськолижні маски",
+        "Сноуборды": "Сноуборди",
     },
     "type_prefix": {                  # как начинать название
         "Лыжные ботинки": "Черевики гірськолижні",
         "Крепления для сноуборда": "Кріплення для сноуборда",
         "Шлемы защитные": "Шолом гірськолижний",
         "Очки-маски": "Маска гірськолижна",
+        "Сноуборды": "Сноуборд",
     },
     "dimensions": {                   # ВГХ упаковки по разделу: кг, см (В×Ш×Д)
         "Лыжные ботинки": (2.5, 18, 32, 42),
         "Крепления для сноуборда": (1.6, 14, 30, 38),
         "Шлемы защитные": (0.6, 25, 25, 30),
         "Очки-маски": (0.3, 12, 12, 22),
+        "Сноуборды": (4.0, 15, 35, 165),
     },
 }
 EAN = re.compile(r"^\d{8}$|^\d{12,14}$")
@@ -69,7 +72,7 @@ def txt(el, tag):
 
 def model_name(name, brand):
     t = re.sub(r"\(.*?\)", "", name)
-    t = re.sub(r"^(Черевики гірськолижні|Кріплення для сноуборда|Кріплення|Черевики|Гірськолижний шолом|Гірськолижна маска|Шолом|Маска)\s+", "", t).strip()
+    t = re.sub(r"^(Черевики гірськолижні|Кріплення для сноуборда|Кріплення|Черевики|Гірськолижний шолом|Гірськолижна маска|Шолом|Маска|Сноуборд)\s+", "", t).strip()
     t = re.sub(r"^" + re.escape(brand) + r"\s+", "", t, flags=re.I).strip()
     t = re.sub(r"\s+20\d\d$", "", t)
     return re.sub(r"\s+", " ", t)
@@ -77,8 +80,9 @@ def model_name(name, brand):
 
 def title(st, cfg):
     brand = st["brand"].capitalize() if st["brand"].isupper() else st["brand"]
-    parts = [cfg["type_prefix"].get(st["section"], ""), brand, model_name(st["name"], st["brand"]), st["year"],
-             color_ua(st["color"]) if st["color"] else "", st["size"]]
+    model = model_name(st["name"], st["brand"])
+    color = st["color"] if st["color"] and st["color"].strip().lower() != model.strip().lower() else ""
+    parts = [cfg["type_prefix"].get(st["section"], ""), brand, model, st["year"], color_ua(color) if color else "", st["size"]]
     t = " ".join(p for p in parts if p)
     if st["vendor_code"]:
         t += f" ({st['vendor_code']})"
@@ -154,7 +158,8 @@ def main():
         cat = cfg["category_map"].get(st["section"], st["section"] or "Інше")
         kg, h, w, l = cfg["dimensions"].get(st["section"], (1.0, 10, 30, 40))
         params = [("Бренд", st["brand"]), ("Модель", model_name(st["name"], st["brand"]))]
-        params += [(k, color_ua(v) if k == "Колір" else v) for k, vs in st["params"].items() for v in vs]
+        params += [(k, color_ua(v) if k == "Колір" else v) for k, vs in st["params"].items() for v in vs
+                   if not (k == "Колір" and v.strip().lower() == model_name(st["name"], st["brand"]).strip().lower())]
         o = ["  <offer>",
              f"   <id>{escape(code)}</id>",
              f"   <code>{escape(code)}</code>",
@@ -167,7 +172,7 @@ def main():
               "   <availability>Є в наявності</availability>",
               f"   <weight>{kg}</weight>", f"   <height>{h}</height>", f"   <width>{w}</width>", f"   <length>{l}</length>",
               f"   <description><![CDATA[{clean_desc(st['desc'])}]]></description>",
-              "   <image_link>" + "".join(f"<picture>{escape(p)}</picture>" for p in st["photos"]) + "</image_link>",
+              "   <image_link>" + "".join(f"<picture>{escape(p)}</picture>" for p in st["photos"][:10]) + "</image_link>",
               "   <tags>" + "".join(f'<param name="{escape(k, {chr(34): "&quot;"})}">{escape(str(v))}</param>' for k, v in params if v) + "</tags>",
               "  </offer>"]
         offers.append("\n".join(o))
