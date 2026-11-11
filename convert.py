@@ -14,7 +14,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from xml.sax.saxutils import escape
 
-FEED_URL = "https://proextreem.com.ua/ua/marketplace-integration/hotline?langId=2"
+FEED_URL = "https://proextreem.com.ua/ua/marketplace-integration/hotline?langId=3"   # langId=3 = українська
 ROOT = Path(__file__).parent
 DATA = ROOT / "data" / "products.json"
 OUT = ROOT / "docs"
@@ -72,17 +72,48 @@ def txt(el, tag):
 
 def model_name(name, brand):
     t = re.sub(r"\(.*?\)", "", name)
-    t = re.sub(r"^(Черевики гірськолижні|Кріплення для сноуборда|Кріплення|Черевики|Гірськолижний шолом|Гірськолижна маска|Шолом|Маска|Сноуборд)\s+", "", t).strip()
-    t = re.sub(r"^" + re.escape(brand) + r"\s+", "", t, flags=re.I).strip()
-    t = re.sub(r"\s+20\d\d$", "", t)
-    return re.sub(r"\s+", " ", t)
+    m = re.search(r"\b" + re.escape(brand) + r"\s+", t, flags=re.I) if brand else None
+    if m:
+        t = t[m.end():]                       # всё до бренда — это тип товара ("Черевики гірськолижні ...")
+    else:
+        t = re.sub(r"^(Черевики гірськолижні|Кріплення для сноуборда|Кріплення|Черевики|Гірськолижний шолом|Гірськолижна маска|Шолом|Маска|Сноуборд)\s+", "", t)
+    t = re.sub(r"\s+20\d\d(-20\d\d)?$", "", t.strip())
+    return re.sub(r"\s+", " ", t).strip()
+
+
+# Категория monoмаркет по началу украинского названия (для товаров без обогащения)
+CLASSIFY = [
+    (r"^Черевики\s+(для\s+)?сноуборд", "Черевики для сноуборда", "Черевики для сноуборда"),
+    (r"^(Черевики|Ботинки)", "Гірськолижні черевики", "Черевики гірськолижні"),
+    (r"^Лиж", "Гірські лижі", "Лижі гірські"),
+    (r"^Сноуборд\b", "Сноуборди", "Сноуборд"),
+    (r"^Кріплен", "Кріплення для сноуборда", "Кріплення для сноуборда"),
+    (r"^(Гірськолижна\s+)?Маска", "Гірськолижні маски", "Маска гірськолижна"),
+    (r"^Окуляри", "Сонцезахисні окуляри", "Окуляри сонцезахисні"),
+    (r"^(Гірськолижний\s+)?Шолом", "Гірськолижні шоломи", "Шолом гірськолижний"),
+]
+HOTLINE_CAT = {"12180": ("Гірські лижі", "Лижі гірські"), "12181": ("Сноуборди", "Сноуборд"),
+               "12182": ("Гірськолижні черевики", "Черевики гірськолижні"),
+               "12183": ("Гірськолижні шоломи", "Шолом гірськолижний"), "12184": ("Гірськолижні маски", "Маска гірськолижна")}
+DIMS_BY_CAT = {"Гірськолижні черевики": (2.5, 18, 32, 42), "Черевики для сноуборда": (2.5, 18, 32, 42),
+               "Кріплення для сноуборда": (1.6, 14, 30, 38), "Гірськолижні шоломи": (0.6, 25, 25, 30),
+               "Гірськолижні маски": (0.3, 12, 12, 22), "Сонцезахисні окуляри": (0.2, 6, 8, 18),
+               "Сноуборди": (4.0, 15, 35, 165), "Гірські лижі": (5.0, 15, 20, 180)}
+
+
+def classify(name, cat_id):
+    n = html.unescape(name).strip()
+    for rx, cat, prefix in CLASSIFY:
+        if re.search(rx, n, flags=re.I):
+            return cat, prefix
+    return HOTLINE_CAT.get(cat_id, ("", ""))
 
 
 def title(st, cfg):
     brand = st["brand"].capitalize() if st["brand"].isupper() else st["brand"]
     model = model_name(st["name"], st["brand"])
     color = st["color"] if st["color"] and st["color"].strip().lower() != model.strip().lower() else ""
-    parts = [cfg["type_prefix"].get(st["section"], ""), brand, model, st["year"], color_ua(color) if color else "", st["size"]]
+    parts = [st.get("_prefix") or cfg["type_prefix"].get(st["section"], ""), brand, model, st["year"], color_ua(color) if color else "", st["size"]]
     t = " ".join(p for p in parts if p)
     if st["vendor_code"]:
         t += f" ({st['vendor_code']})"
@@ -109,7 +140,7 @@ def main():
     raw = Path(sys.argv[1]).read_bytes() if len(sys.argv) > 1 else fetch(FEED_URL)
     root = ET.fromstring(raw)
     items = root.find("items")
-    offers, prices, skipped, nophoto = [], [], [], []
+    offers, prices, skipped, nophoto, uncategorized, meta = [], [], [], [], [], []
     # Horoshop отдаёт <code> = MPN, а MPN бывает общим для нескольких размеров -> берём штрихкод
     from collections import Counter
     code_count = Counter(txt(it, "code") for it in items)
@@ -155,8 +186,14 @@ def main():
         if not st["photos"]:
             nophoto.append(code)          # monoмаркет без фото не примет — не отдаём
             continue
-        cat = cfg["category_map"].get(st["section"], st["section"] or "Інше")
-        kg, h, w, l = cfg["dimensions"].get(st["section"], (1.0, 10, 30, 40))
+        cat = cfg["category_map"].get(st["section"])
+        if not cat:
+            cat, prefix = classify(txt(it, "name"), txt(it, "categoryId"))
+            st = dict(st, _prefix=prefix)
+        if not cat:
+            uncategorized.append(code)
+            continue                          # без категории monoмаркет отклонит — не отдаём
+        kg, h, w, l = DIMS_BY_CAT.get(cat) or cfg["dimensions"].get(st["section"], (1.0, 10, 30, 40))
         params = [("Бренд", st["brand"]), ("Модель", model_name(st["name"], st["brand"]))]
         params += [(k, color_ua(v) if k == "Колір" else v) for k, vs in st["params"].items() for v in vs
                    if not (k == "Колір" and v.strip().lower() == model_name(st["name"], st["brand"]).strip().lower())]
@@ -176,11 +213,32 @@ def main():
               "   <tags>" + "".join(f'<param name="{escape(k, {chr(34): "&quot;"})}">{escape(str(v))}</param>' for k, v in params if v) + "</tags>",
               "  </offer>"]
         offers.append("\n".join(o))
+        meta.append((st["barcode"], int((re.search(r"20\d\d", st["year"] or "") or [0])[0] or 0), vc_unique))
         prices.append({"code": code, "price": price, "old_price": old if old > price else None, "availability": True,
                        "stock": cfg["stock_if_available"],
                        "warehouses": [{"id": cfg["warehouse_id"], "stock": cfg["stock_if_available"]}],
                        "warranty_type": cfg["warranty_type"], "warranty_period": st["warranty"],
                        "max_pay_in_parts": cfg["pay_in_parts"], "days_to_dispatch": cfg["days_to_dispatch"], "manufacture": None})
+
+    # Дубли: один и тот же товар заведён дважды (напр. Supermatic 2026 и 2027 с одним штрихкодом) —
+    # отдаём только более новый год. Оставшиеся совпадения vendor_code различаем годом.
+    best = {}
+    for i, (bc, yr, vc) in enumerate(meta):
+        if bc and (bc not in best or yr > meta[best[bc]][1]):
+            best[bc] = i
+    keep = [i for i, (bc, yr, vc) in enumerate(meta) if not bc or best[bc] == i]
+    dropped = [prices[i]["code"] for i in range(len(meta)) if i not in set(keep)]
+    vcc = {}
+    for i in keep:
+        vcc[meta[i][2]] = vcc.get(meta[i][2], 0) + 1
+    for i in keep:
+        bc, yr, vc = meta[i]
+        if vcc[vc] > 1 and yr:
+            offers[i] = offers[i].replace(f"<vendor_code>{escape(vc)}</vendor_code>", f"<vendor_code>{escape(vc)}-{yr}</vendor_code>")
+    offers = [offers[i] for i in keep]
+    prices = [prices[i] for i in keep]
+    if dropped:
+        print(f"дубли по штрихкоду (не отдаём старший год): {dropped}")
 
     OUT.mkdir(exist_ok=True)
     (OUT / "products.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<Market>\n <offers>\n' + "\n".join(offers)
@@ -190,7 +248,7 @@ def main():
     (OUT / "index.html").write_text(f"<meta charset=utf-8><p>Proextreem → monoмаркет: {len(offers)} товарів, оновлено "
                                     f"{datetime.now(timezone.utc):%Y-%m-%d %H:%M} UTC</p><a href=products.xml>products.xml</a> · <a href=prices.json>prices.json</a>",
                                     encoding="utf-8")
-    print(f"offers: {len(offers)}, prices: {len(prices)}, без обогащения: {len(skipped)}, без фото (пропущены): {nophoto}")
+    print(f"offers: {len(offers)}, prices: {len(prices)}, без обогащения: {len(skipped)}, без фото (пропущены): {nophoto}, без категории: {uncategorized}")
 
 
 if __name__ == "__main__":
