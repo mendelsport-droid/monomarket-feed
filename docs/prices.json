@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-16T02:30:43Z",
- "total": 515,
+ "updatedAt": "2026-11-17T02:30:34Z",
+ "total": 512,
  "data": [
   {
    "code": "9010510445506",
@@ -3207,61 +3207,7 @@
    "manufacture": null
   },
   {
-   "code": "21020501-MSC-157",
-   "price": 31139,
-   "old_price": null,
-   "availability": true,
-   "stock": 1,
-   "warehouses": [
-    {
-     "id": "DNIPRO-MAIN",
-     "stock": 1
-    }
-   ],
-   "warranty_type": "manufacturer",
-   "warranty_period": 36,
-   "max_pay_in_parts": 7,
-   "days_to_dispatch": 3,
-   "manufacture": null
-  },
-  {
-   "code": "21020501-MSC-159",
-   "price": 31139,
-   "old_price": null,
-   "availability": true,
-   "stock": 1,
-   "warehouses": [
-    {
-     "id": "DNIPRO-MAIN",
-     "stock": 1
-    }
-   ],
-   "warranty_type": "manufacturer",
-   "warranty_period": 36,
-   "max_pay_in_parts": 7,
-   "days_to_dispatch": 3,
-   "manufacture": null
-  },
-  {
    "code": "21020501-MSC-161",
-   "price": 31139,
-   "old_price": null,
-   "availability": true,
-   "stock": 1,
-   "warehouses": [
-    {
-     "id": "DNIPRO-MAIN",
-     "stock": 1
-    }
-   ],
-   "warranty_type": "manufacturer",
-   "warranty_period": 36,
-   "max_pay_in_parts": 7,
-   "days_to_dispatch": 3,
-   "manufacture": null
-  },
-  {
-   "code": "21020601-MSC-158",
    "price": 31139,
    "old_price": null,
    "availability": true,
